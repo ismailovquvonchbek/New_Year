@@ -1,0 +1,132 @@
+.footer {
+    background: var(--Button-gradient-20, linear-gradient(270deg, rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%));
+    margin-top: 80px;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 41px;
+    gap: 10px;
+}
+
+.footer__list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 74px;
+}
+
+.footer__item {
+    list-style-type: none;
+}
+
+.footer__heading {
+    color: #1E1E1E;
+    font-family: 'Nuckle';
+    font-size: 16px;
+    font-weight: 653;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #1E1E1E;
+    font-family: 'Nuckle';
+    font-size: 16px;
+    font-weight: 539;
+    display: block;
+    margin: 20px 0;
+}
+
+.footer__p {
+    color: #1E1E1E;
+    font-family: 'Nuckle';
+    font-size: 16px;
+    font-weight: 539;
+    margin: 20px 0;
+}
+
+.footer__text {
+    width: 147px;
+    color: #1E1E1E;
+    font-family: 'Nuckle';
+    font-size: 16px;
+    font-weight: 539;
+    margin: 20px 0;
+}
+
+.footer__pifore {
+    width: 335px;
+    color: #1E1E1E;
+    font-family: 'Nuckle';
+    font-size: 16px;
+    font-weight: 539;
+    margin-bottom: 27px;
+}
+
+.footer__icones {
+    display: flex;
+    gap: 26px;
+}
+
+.footer__icon {
+    width: 42px;
+    height: 42px;
+}
+
+.footer__span {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+    margin-bottom: 38px;
+    display: inline-block;
+}
+
+.footer__lorem {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 38px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .footer__list {
+        gap: 20px;
+    }
+
+    .footer__pifore {
+        width: 205px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .footer__list {
+        gap: 10px;
+    }
+
+    .footer__link {
+        margin: 10px 0;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 710px) {
+    .footer__flex {
+        flex-direction: column;
+    }
+
+    .footer__list {
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (max-width: 485px) {
+    .footer__list {
+        grid-template-columns: repeat(2,1fr);
+    }
+}

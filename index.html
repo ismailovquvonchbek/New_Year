@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.min.css">
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtVWoHu9VwJAhwoTOP6p5JVOei7j-Qesb5xQ&usqp=CAU">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>New Year</title>
+</head>
+
+<body style="background-color: #e8effa;">
+
+    <!-- Header -->
+
+    <header class="header">
+        <div class="container">
+
+            <div class="header__item">
+                <button class="header__item--btn">
+                    <img class="header__item--img" src="./image/email.svg" alt="Email icon">
+                    Aloqa uchun
+                </button>
+
+                <select class="header__select">
+                    <option value="uz">UZ</option>
+                    <option value="ru">RU</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+
+            <div class="header__flex">
+                <a class="header__link" href="#">
+                    <img class="header__logo" src="./image/Next-logo.svg" alt="Logo" width="100" height="35">
+                </a>
+
+                <button class="header__button">
+                    <img class="header__menu" src="./image/menu.svg" alt="Menu">
+                    Katalog
+                </button>
+
+                <form class="input__flex">
+                    <input class="header__input" type="text" placeholder="Maxsulotlarni izlash">
+                    <button class="header__search--btn" type="button">
+                        <img class="header__search--icon" src="./image/search.svg" alt="Icon">
+                    </button>
+                </form>
+
+                <nav class="navber">
+                    <ul class="nav__list ">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <img class="heart__icon" src="./image/heart-icon.svg" alt="icon">
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">
+                                <img class="basket__icon" src="./image/basket-icon.svg" alt="icon">
+                            </a>
+                        </li>
+
+                        <li class="nav__item--none">
+                            <button class="header__button btn__none" type="button">
+                                <img class="header__menu" src="./image/menu.svg" alt="Menu">
+                                Katalog
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="hdr__btn--acces" type="button">Kirish</button>
+
+                <button class="nav__button" type="button">
+                    <img class="menu" src="./image/hamb-menu.svg" alt="Menu icon">
+
+                    <img class="exit" src="./image/exit.svg" alt="Exit icon">
+                </button>
+
+
+                <div class="modalkalar">
+
+                    <div class="modal1 modalka">
+                        <button class="modal__acces1" type="button">Kirish</button>
+                        <button class="modal__exit1" type="button">Chiqish</button>
+
+
+                        <ul class="modal__list1">
+                            <li class="modal__item1">
+                                <img class="modal__icon1" src="./image/shaxsiy-icon.svg" alt="Iconka" width="24"
+                                    height="24">
+                                <p class="modal__p1">Shaxsiy ma'lumotlar</p>
+                            </li>
+
+                            <li class="modal__item1">
+                                <img class="modal__icon1" src="./image/order-icon.svg" alt="Iconka" width="24"
+                                    height="24">
+                                <p class="modal__p1">Mening buyurtmalarim</p>
+                            </li>
+
+                            <li class="modal__item1">
+                                <img class="modal__icon1" src="./image/heart-icon.svg" alt="Iconka" width="24"
+                                    height="24">
+                                <p class="modal__p1">Sevimlilar</p>
+                            </li>
+
+                            <li class="modal__item1">
+                                <img class="modal__icon1" src="./image/adress.svg" alt="Iconka" width="24" height="24">
+                                <p class="modal__p1">Manzillar</p>
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+
+                    <div class="modal2 modalka">
+                        <button class="modal__exit2" type="button">x</button>
+                        <h1 class="modal__heading2">Hisobga kirish uchun </h1>
+                        <button class="modal__acces2" type="button">Kirish</button>
+                        <p class="modal__p2">Yoki</p>
+                        <button class="modal__btn2" type="button">Ro’yxatdan o’tish</button>
+                    </div>
+
+
+                    <div class="modal3 modalka">
+                        <button class="modal__exit3" type="button">x</button>
+                        <h2 class="modal__heading3">Telefon raqam orqali kirish</h2>
+                        <input class="modal__input3" type="text" placeholder="Telefon raqam ">
+                        <input class="modal__password3" type="password" placeholder="Parol">
+                        <button class="modal__btn3" type="button">Kirish</button>
+                        <button class="modal__forget3" type="button">Parolni unutdingizmi ?</button>
+                    </div>
+
+
+                    <div class="modal4 modalka">
+                        <button class="modal__exit4" type="button">x</button>
+                        <h2 class="modal__heading4">Telefon raqamini kiriting</h2>
+                        <input class="modal__input4" type="tel" placeholder="+ 998 9* *** ** **">
+                        <button class="modal__btn4" type="button">Kodni qabul qilish </button>
+                    </div>
+
+
+                    <div class="modal5 modalka">
+                        <button class="modal__exit5" type="button">x</button>
+                        <h2 class="modal__heading5">Parolni tiklash</h2>
+                        <input class="modal__input5" type="tel" placeholder="Telefon raqami ">
+                        <button class="modal__btn5" type="button">Parolni tiklash</button>
+                        <button class="modal__send5" type="button">Qayta jo’natish</button>
+                    </div>
+
+                    <div class="modal6 modalka">
+                        <button class="modal__exit6" type="button">x</button>
+                        <h2 class="modal__heading6">Kirishni tasdiqlash</h2>
+                        <p class="modal__text6">+ 998 9* *** ** ** raqamga kod yubordik</p>
+                        <input class="modal__input6" type="text" placeholder="Bir martalik  kodni kiriting">
+                        <button class="modal__acces6" type="button">Kirish</button>
+                        <button class="modal__btn6" type="button">Parol kelmadimi ?</button>
+                    </div>
+
+
+                    <div class="modal7  modalka">
+                        <p class="modal__text7">Siz muvaffaqiyatli ro'yhatdan otdingiz!!!</p>
+                        <button class="modal__btn7">Tayyor</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero -->
+
+        <section class="hero">
+            <div class="container">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./image/Hero.png" class="d-block w-100 hero__img" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./image/Hero.png" class="d-block w-100 hero__img" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/Hero.png" class="d-block w-100 hero__img" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Kategoriyalar -->
+
+        <section class="kate">
+            <div class="container">
+                <h3 class="kate__heading">Kategoriyalar</h3>
+
+                <ul class="kate__list">
+                    <template id="kate__template">
+                        <li class="kate__item">
+                            <img class="kate__img" src="./image/Phone.png" alt="Phone ">
+                            <p class="kate__text">Smartfonlar</p>
+                        </li>
+                    </template>
+                </ul>
+
+                <button class="kate__btn" type="button">Batafsil</button>
+            </div>
+        </section>
+
+        <!-- About -->
+
+        <section class="about">
+            <div class="container">
+                <h3 class="about__head">Eng ko'p sotilgan</h3>
+
+                <ul class="about__list">
+                    <template id="about__template">
+                        <li class="about__item">
+                            <button class="about__btn" type="button">
+                                <img class="about__icon" src="./image/heart-icon.svg" alt="icon">
+                            </button>
+                            <img class="about__img"
+                                src="https://www.creditasia.uz/upload/iblock/592/televizor-samsung-ue43au9000-2.jpg"
+                                alt="Image" 
+                                width="180" 
+                                height="180">
+                            <p class="about__cost">299 000 so'm</p>
+                            <h3 class="about__heading">
+                                Apple Airpods Pro simsiz quloqchin , Oq rangda 
+                            </h3>
+                            <p class="about__p">1230 ta buyurtma</p>
+    
+                            <div class="abot__flex">
+                                <button class="about__buy" type="button">Sotib olish</button>
+                                <button class="about__basket">
+                                    <img class="about__img--basket" src="./image/basket-icon.svg" alt="Baskete icon">
+                                </button>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+
+                <button class="about__button" type="button">Ko'proq ko'rish </button>
+            </div>
+        </section>
+
+        <!-- Humans -->
+
+        <section class="human">
+            <div class="container">
+                <h4 class="human__heading">Brendlar bo’yicha</h4>
+                <ul class="human__list">
+                    <template id="human__temp">
+                        <li class="human__item">
+                            <a class="human__link" href="#">
+                                <img class="human__img" 
+                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/HP_New_Logo_2D.svg/600px-HP_New_Logo_2D.svg.png" 
+                                     alt="Image" 
+                                     width="90" 
+                                     height="90">
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Were -->
+
+        <section class="were">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./image/were-img.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/were-img.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./image/were-img.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Manuel -->
+
+        <section class="manuel">
+            <div class="container">
+                <h4 class="manuel__heading">Do'konlarimiz</h4>
+
+                <ul class="manuel__list">
+                    <template id="manuel__template">
+                        <li class="manuel__item">
+                            <a class="manuel__link" href="#">
+                                <img class="manuel__img" src="https://elmakon.uz/images/feature_variant/9/elmakon.png" alt="Image">
+                            </a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <h5 class="footer__heading">Hujjatlar</h5>
+                        <a class="footer__link" href="#">Umumiy shartlar</a>
+                        <a class="footer__link" href="#">Ofertalar arxivi</a>
+                        <a class="footer__link" href="#">Nizom</a>
+                        <a class="footer__link" href="#">Guvohnoma</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <h5 class="footer__heading">Servis</h5>
+                        <a class="footer__link" href="#">Do’konlar</a>
+                        <a class="footer__link" href="#">Biz haqimizda</a>
+                        <a class="footer__link" href="#">Hamkorlik uchun</a>
+                        <a class="footer__link" href="#">Qaytarish</a>
+                        <a class="footer__link" href="#">Promokodlar</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <h5 class="footer__heading">Mahsulotlar katalogi</h5>
+                        <a class="footer__link" href="#">Katalog 1</a>
+                        <a class="footer__link" href="#">Katalog 1</a>
+                        <a class="footer__link" href="#">Katalog 2</a>
+                        <a class="footer__link" href="#">Katalog 2</a>
+                        <a class="footer__link" href="#">Katalog 3</a>
+                        <a class="footer__link" href="#">Katalog 3</a>
+                    </li>
+                </ul>
+
+                <div class="footer__box">
+                    <h5 class="footer__heading">Axbarot xizmati</h5>
+                    <p class="footer__p">contact.@nextstore.uz</p>
+                    <p class="footer__text">+998 97 712 96 96  +998 95 503 09 09</p>
+                    <p class="footer__pifore">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</p>
+                    <div class="footer__icones">
+                        <a class="footer__link" href="#">
+                            <img class="footer__icon" src="./image/facebook.svg" alt="Icon">
+                        </a>
+
+                        <a class="footer__link" href="#">
+                            <img class="footer__icon" src="./image/Instagram.svg" alt="Icon">
+                        </a>
+
+                        <a class="footer__link" href="#">
+                            <img class="footer__icon" src="./image/Telegram.svg" alt="Icon">
+                        </a>
+
+                        <a class="footer__link" href="#">
+                            <img class="footer__icon" src="./image/tik-tok.svg" alt="Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <span class="footer__span"></span>
+
+            <div class="footer__lorem">
+                <p class="footer__p">2022  Nextstore.com</p>
+                <p class="footer__p">Powered by </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/films.js"></script>
+    <script src="./js/films-main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/kategoriya.js"></script>
+    <script src="./js/kategoriya-main.js"></script>
+    <script src="./js/logos.js"></script>
+    <script src="./js/logos-main.js"></script>
+</body>
+
+</html>
