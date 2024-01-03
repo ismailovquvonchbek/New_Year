@@ -15,25 +15,23 @@ const renderFilms = (item) => {
     })
 }
 
-renderFilms(films, elAboutList)
+renderFilms(films)
 
-elForm.addEventListener("submit", (evt) => {
+function SearchInput(evt) {
+    evt.preventDefault();
 
-    evt.preventDefault()
-
-    const inputValue = elInput.value.trim()
 
     elAboutList.innerHTML = null
 
-    const filterTitle = films.filter((film) => film.title.includes(inputValue),);
+    const inputValue = elInput.value.trim();
 
-    const regex = new RegExp(inputValue, 'gi');
-    const filterBysearch = filterTitle.filter((film) => film.title.match(regex),);
+    const  regex = new RegExp(inputValue, 'gi');
+    const Filter = films.filter((film) => film.title.match(regex))
 
-    renderFilms(filterBysearch, elAboutList)
     
-})
+    renderFilms(Filter, elAboutList);
+
+}
 
 
-
-
+elForm.addEventListener("input", SearchInput)
