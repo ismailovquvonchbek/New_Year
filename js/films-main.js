@@ -14,7 +14,7 @@ const renderFilms = (item) => {
         elAboutList.appendChild(aboutRender)
     })
 }
-
+    
 renderFilms(films)
 
 function SearchInput(evt) {
