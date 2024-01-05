@@ -54,6 +54,9 @@
 
 @media only screen and (max-width: 400px) {
     .human__list {
-        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        height: 200px;
+        overflow: auto;
+        gap: 20px;
     }
 }
